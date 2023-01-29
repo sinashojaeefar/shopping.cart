@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <!------header------>
+    <Header>
+        <div class="nav container">
+            <a href="#" class="logo">Shopping Cart</a>
+
+            <i class="fa fa-shopping-bag" id="cart-icon"></i>
+
+            <!---------add cart---------->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <div class="content-cart">
+                    
+                </div>
+
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class="fa fa-close" id="close"></i>
+            </div>
+        </div>
+    </Header>
+    
+
+    <section class="shop container">
+        <h2 class="title">New Products</h2>
+
+        <div class="content">
+            
+            <div class="product-box">
+                <img src="img/Logitech_M185.webp" alt="" class="img-product">
+                <h2 class="product-title">Mouse Logitec</h2>
+                <span class="price">$10.99</span>
+                <i class="fa fa-shopping-bag add-cart"></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/sony_srsxb13_portable.jpg" alt="" class="img-product">
+                <h2 class="product-title">Sony SRS-XB13</h2>
+                <span class="price">$80</span>
+                <i class="fa fa-shopping-bag add-cart"></i>
+            </div>
+
+
+            <div class="product-box">
+                <img src="img/headphone.jpg" alt="" class="img-product">
+                <h2 class="product-title">Headphone beats</h2>
+                <span class="price">$299</span>
+                <i class="fa fa-shopping-bag add-cart"></i>
+            </div>
+
+        </div>
+
+
+
+        <div class="content">
+            
+            <div class="product-box">
+                <img src="img/Redmi-Watch-2-Lite.jpg" alt="" class="img-product">
+                <h2 class="product-title">Redmi Watch 2 Lite</h2>
+                <span class="price">$79</span>
+                <i class="fa fa-shopping-bag add-cart"></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/msi-pro-mp271.jpg" alt="" class="img-product">
+                <h2 class="product-title">MSI Pro MP271</h2>
+                <span class="price">$179</span>
+                <i class="fa fa-shopping-bag add-cart"></i>
+            </div>
+
+
+            <div class="product-box">
+                <img src="img/sony-dualsense-wireless.jfif" alt="" class="img-product">
+                <h2 class="product-title">Sony DualSense</h2>
+                <span class="price">$69</span>
+                <i class="fa fa-shopping-bag add-cart"></i>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
